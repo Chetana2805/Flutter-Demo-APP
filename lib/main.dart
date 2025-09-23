@@ -39,7 +39,7 @@ class _LoginScreenState extends State<LoginScreen> {
             TextButton(
                 onPressed: () => Navigator.pop(context), child: Text("OK"))
           ],
-        ),
+        ), 
       );
     } else {
       showDialog(
@@ -60,7 +60,7 @@ class _LoginScreenState extends State<LoginScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text("Login Page"),
+        title: Text("My Login Page"),
         centerTitle: true,
       ),
       body: Padding(
